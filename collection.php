@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>index</title>
+    <title>Collection</title>
     <?php require_once("file.inc") ?>
 </head>
 <body>
@@ -15,11 +15,11 @@
                 name    : 'Untitled',
                 gender  : 'Untitled'
             }
-        })
+        });
 
         var Human = Backbone.Collection.extend({
-            model:People
-        })
+            model : People
+        });
 
         var Man     = new People({gender:'Male'});
         var Woman   = new People({gender:'Female'});
@@ -31,7 +31,14 @@
 
         HumanBeing.each(function(People){
             console.log('People\'s gender is ' + People.get('gender'));
-        })
+        });
+
+        HumanBeing.bind('reset',describe);
+        var describe = function(){
+            HumanBeing.each(function(People){
+                console.log('People\'s gender is ' + People.get('gender'));
+            });
+        }
 
     })(jQuery)
 </script>
