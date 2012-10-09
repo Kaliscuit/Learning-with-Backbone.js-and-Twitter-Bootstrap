@@ -1,2 +1,7 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/underscore.js"></script>
+<script src="js/json2.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/backbone.js"></script>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
