@@ -7,7 +7,7 @@
 <body>
 <script>
     (function($){
-        var peopleRouter = Backbone.Router.extend({
+        var PeopleRouter = Backbone.Router.extend({
             routes : {
                 "help/:page":         "help",
                 "download/*path":     "download",
