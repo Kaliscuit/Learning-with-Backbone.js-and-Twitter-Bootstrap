@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World!</title>
+    <title>index</title>
     <?php require_once("file.inc") ?>
 </head>
 <body>
-Hello World!
+<ul>
+    <li><a href="helloworld.php">Hello world!</a></li>
+</ul>
 </body>
 </html>
