@@ -23,17 +23,16 @@
 
         var Man     = new People({gender:'Male'});
         var Woman   = new People({gender:'Female'});
+        var Boy     = new People({gender:'Male'});
+        var Girl    = new People({gender:'Female'});
 
         var HumanBeing = new Human([Man,Woman]);
-        
+        HumanBeing.add([Boy,Girl]);
+
         HumanBeing.each(function(People){
             console.log('People\'s gender is ' + People.get('gender'));
         })
 
-        var HumanBeing = new Human;
-        HumanBeing.each(function(People){
-            console.log('People\'s gender is ' + People.get('gender'));
-        })
     })(jQuery)
 </script>
 </body>
