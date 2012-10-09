@@ -7,6 +7,7 @@
 <body>
 <ul>
     <li><a href="helloworld.php">Hello world!</a></li>
+    <li><a href="model.php">Model</a></li>
 </ul>
 </body>
 </html>
