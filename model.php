@@ -8,7 +8,7 @@
 <script>
     (function($){
 
-        var people = Backbone.Model.extend({
+        var People = Backbone.Model.extend({
             url: 'save',
             initialize: function(){
                 console.log("Initialized!");
@@ -34,7 +34,7 @@
             }
         });
 
-        var Tommy = new people;
+        var Tommy = new People;
         console.log(Tommy.get('name'));
 
         Tommy.set({name:''});
