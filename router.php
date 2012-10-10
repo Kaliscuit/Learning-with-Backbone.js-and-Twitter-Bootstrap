@@ -7,7 +7,7 @@
 <body>
 <script>
     (function($){
-        var PeopleRouter = Backbone.Router.extend({
+        var SiteRouter = Backbone.Router.extend({
             routes : {
                 "help/:page":         "help",
                 "download/*path":     "download",
@@ -15,8 +15,10 @@
                 "folder/:name-:mode": "openFolder"
             }
         });
+        var PageRouter = new SiteRouter;
         Backbone.history.start();
     })(jQuery)
 </script>
+<a href="#download/bingo">Download</a>
 </body>
 </html>
