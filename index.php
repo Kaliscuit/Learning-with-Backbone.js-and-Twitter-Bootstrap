@@ -10,6 +10,7 @@
     <li><a href="model.php">Model</a></li>
     <li><a href="collection.php">Collection</a></li>
     <li><a href="router.php">Router</a></li>
+    <li><a href="view.php">Router</a></li>
 </ul>
 </body>
 </html>
