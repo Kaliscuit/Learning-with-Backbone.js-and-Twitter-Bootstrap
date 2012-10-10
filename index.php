@@ -11,7 +11,7 @@
     <li><a href="collection.php">Collection</a></li>
     <li><a href="router.php">Router</a></li>
     <li><a href="view.php">View</a></li>
-    <li><a href="todo.php">View</a></li>
+    <li><a href="todo.php">Todo</a></li>
 </ul>
 </body>
 </html>
